@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bath and Body Works Products</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header, footer {
+    background-color: #FFA500;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+  }
+  nav {
+    background-color: #FFD700;
+    padding: 1em;
+    text-align: center;
+  }
+  section {
+    padding: 2em;
+  }
+  .product {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1em;
+    margin: 1em;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type="text"] {
+    padding: 0.5em;
+    border-radius: 4px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Bath and Body Works</h1>
+</header>
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Fragrances</a>
+  <a href="#">Body Care</a>
+  <a href="#">Candles</a>
+  <label for="search">Search</label>
+  <input type="text" id="search" placeholder="Search">
+</nav>
+<section>
+  <div class="product">
+    <img src="bathandbody1.jpg" alt="Bath and Body Works Product 1">
+    <h3>Product 1</h3>
+    <p>Description of Product 1.</p>
+    <p>Price: $20</p>
+    <button>Add to Cart</button>
+  </div>
+  <div class="product">
+    <img src="bathandbody2.jpg" alt="Bath and Body Works Product 2">
+    <h3>Product 2</h3>
+    <p>Description of Product 2.</p>
+    <p>Price: $15</p>
+    <button>Add to Cart</button>
+  </div>
+  <!-- Add more product entries as needed -->
+</section>
+<footer>
+  <p>&copy; 2023 Bath and Body Works. All rights reserved.</p>
+</footer>
+</body>
+</html>
